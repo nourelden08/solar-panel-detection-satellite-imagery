@@ -33,6 +33,10 @@ Custom model results:
 - False Positives: 92
 - False Negatives: 92
 
+## Performance Visualization
+
+![Precision, Recall, and F1 across confidence thresholds](assets/04_threshold_metrics.png)
+
 ## Technologies
 
 - Python
@@ -49,3 +53,22 @@ Custom model results:
 solar_panel_detection.ipynb
 README.md
 .gitignore
+assets/
+```
+
+## Notebook
+
+The full training, evaluation, visualization, and model-comparison pipeline is available in:
+
+```text
+solar_panel_detection.ipynb
+```
+
+## Model Weights
+
+The trained model weights will be added after the next complete training run.
+
+## Author
+
+Nourelden Essam  
+AI Engineer and Co-Founder of FN Lab
