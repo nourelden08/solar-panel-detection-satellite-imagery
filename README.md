@@ -70,11 +70,11 @@ The full training, evaluation, visualization, and model-comparison pipeline is a
 
 ## Model Weights
 
-The best custom SolarYOLO checkpoint was saved as:
+The best custom SolarYOLO checkpoint is available in the `v1.0.0` release:
 
-```text
-solar_panel_best_model.pth
-```
+[Download solar_panel_best_model.pth](https://github.com/nourelden08/solar-panel-detection-satellite-imagery/releases/download/v1.0.0/solar_panel_best_model.pth)
+
+The checkpoint contains the best-performing model obtained during training.
 
 The model weight file will be published through a GitHub Release rather than stored directly in the repository.
 
