@@ -15,7 +15,7 @@ This project:
 
 ## Dataset
 
-PV01 subset from the Multi-Resolution PV Panel Segmentation Dataset.
+This project uses the **PV01 subset** from the Multi-Resolution PV Panel Segmentation Dataset.
 
 Dataset link:
 
@@ -36,6 +36,12 @@ Custom model results:
 ## Performance Visualization
 
 ![Precision, Recall, and F1 across confidence thresholds](assets/04_threshold_metrics.png)
+
+## Qualitative Predictions
+
+Ground-truth boxes are shown in **green**, while custom model predictions are shown in **blue**.
+
+![Custom SolarYOLO qualitative predictions](assets/05_custom_model_predictions.png)
 
 ## Technologies
 
@@ -58,17 +64,21 @@ assets/
 
 ## Notebook
 
-The full training, evaluation, visualization, and model-comparison pipeline is available in:
+The full training, evaluation, visualization, and model-comparison pipeline is available here:
 
-```text
-solar_panel_detection.ipynb
-```
+[Open the Solar Panel Detection Notebook](solar_panel_detection.ipynb)
 
 ## Model Weights
 
-The trained model weights will be added after the next complete training run.
+The best custom SolarYOLO checkpoint was saved as:
+
+```text
+solar_panel_best_model.pth
+```
+
+The model weight file will be published through a GitHub Release rather than stored directly in the repository.
 
 ## Author
 
-Nourelden Essam  
+**Nourelden Essam**  
 AI Engineer and Co-Founder of FN Lab
